@@ -161,8 +161,32 @@ label #cancel{
 }
 .dash-work {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content:space-around;
   width: 80%;
+}
+.Card{
+  position: relative;
+  width: 150px;
+  height: 210px;
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: #92aecc;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  background: rgb(101,117,135);
+  background: radial-gradient(circle, rgba(101,117,135,1) 0%, rgba(39,47,51,1) 100%);
+}
+
+.bug-btn{
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  width: 80px;
+  color: #92aecc;
+  margin-top: 60px;
+}
+.project-btn{
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  width: 80px;
+  color: #92aecc;
+  margin-top: 60px;
 }
 

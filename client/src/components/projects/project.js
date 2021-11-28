@@ -1,4 +1,4 @@
-
+import './project.css'
 import EditProjects from "./editProject";
 import { Table } from "react-bootstrap";
 import DeleteProject from "./deleteProject";
@@ -9,7 +9,7 @@ const Project = ({project}) => {
         <div className="bugs-table">
             <Table striped bordered hover>
   <thead>
-    <tr>
+    <tr className="tr-up" >
       <th>title</th>
       <th>description</th>
       <th>deliveryTime</th>
@@ -17,7 +17,7 @@ const Project = ({project}) => {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr className="tr-up" >
       <td>{project.title}</td>
       <td>{project.description}</td>
       <td>{project.deliveryTime}</td>

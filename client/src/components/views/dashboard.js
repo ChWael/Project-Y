@@ -67,10 +67,12 @@ return (
         <div className="Card">
             <p>All Bugs</p>
             <p>{bugs.length}</p>
+            <button className="bug-btn" >Add</button>
         </div>
         <div className="Card">
             <p>All Projects</p>
             <p>{projects.length}</p>
+            <button className="project-btn" >Add</button>
         </div>
         </div>
     </div>

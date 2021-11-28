@@ -9,7 +9,7 @@ const Bug = ({bug}) => {
         <div className="bugs-table">
             <Table striped bordered hover>
   <thead>
-    <tr>
+    <tr className="tr-up" >
       <th>name</th>
       <th>description</th>
       <th>location</th>
@@ -19,7 +19,7 @@ const Bug = ({bug}) => {
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr className="tr-up" >
       <td>{bug.name}</td>
       <td>{bug.description}</td>
       <td>{bug.location}</td>

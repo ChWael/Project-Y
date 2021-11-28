@@ -1,8 +1,12 @@
 .bugs-table {
-    display: flex;
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
     justify-content: center;
     padding: 5px;
     margin : 1%;
-    width: 100%;
+    width: 45%;
+    
+}
+.tr-up{
+    background: radial-gradient(circle, rgba(101,117,135,1) 100%, rgba(39,47,51,1) 0%);
 }
